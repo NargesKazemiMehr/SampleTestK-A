@@ -46,8 +46,8 @@ namespace UM.REST.Infrastructure.Middleware
 
 
         private static readonly string[] ExcludedList = {
-            "/api/identity/account/login",
-            "/api/identity/account/register"
+            "/api/xx",
+            "/api/xx"
         };
 
         private static bool IsInExcludedUrls(HttpRequest request)
