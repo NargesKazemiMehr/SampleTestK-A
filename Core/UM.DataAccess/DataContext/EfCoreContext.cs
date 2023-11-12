@@ -35,12 +35,7 @@ namespace UM.DataAccess.DataContext
         /// </summary>
         public DbSet<UrlResolver> UrlResolvers => Set<UrlResolver>();
 
-        //protected override void OnConfiguring(
-        //    DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer(
-        //       "Server=(localdb)\\mssqllocaldb;Database=UM;");
-        //}
+ 
 
         protected override void OnModelCreating(
             ModelBuilder modelBuilder)
